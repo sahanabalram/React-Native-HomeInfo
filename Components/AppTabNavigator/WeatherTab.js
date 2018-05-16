@@ -2,7 +2,7 @@ import React, {Component} from "react";
 import {StyleSheet, Text, View} from "react-native";
 
 import {Icon} from "native-base";
-
+import CardComponent from "../CardComponent";
 class WeatherTab extends Component {
     static navigationOptions = {
 
@@ -13,7 +13,7 @@ class WeatherTab extends Component {
     render(){
         return(
             <View style={styles.container}>
-                <Text>WeatherTab</Text>
+                <CardComponent />
             </View>
         )
     }
@@ -24,7 +24,6 @@ export default WeatherTab;
 const styles= StyleSheet.create({
     container: {
         flex: 1,
-        alignItems: "center",
-        justifyContent: "center"
+       backgroundColor: "white"
     }
 });
