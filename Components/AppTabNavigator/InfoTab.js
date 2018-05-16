@@ -7,7 +7,7 @@ class InfoTab extends Component {
     static navigationOptions = {
 
         tabBarIcon: ({ tintColor }) => (
-            <Icon name="ios-heart" style={{ color: tintColor }} />
+            <Icon name="md-information-circle" style={{ color: tintColor }} />
         )
     }
     render(){

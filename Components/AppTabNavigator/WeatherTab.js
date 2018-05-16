@@ -7,7 +7,7 @@ class WeatherTab extends Component {
     static navigationOptions = {
 
         tabBarIcon: ({ tintColor }) => (
-            <Icon name="ios-heart" style={{ color: tintColor }} />
+            <Icon name="md-cloud-circle" style={{ color: tintColor }} />
         )
     }
     render(){

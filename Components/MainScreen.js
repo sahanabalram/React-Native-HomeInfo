@@ -15,9 +15,9 @@ import { Icon } from 'native-base'
 
 class MainScreen extends Component {
     static navigationOptions = {
-        headerLeft: <Icon name="ios-home" style={{ paddingLeft: 10 }} />,
+        headerLeft: <Icon name="md-home" style={{ paddingLeft: 10 }} />,
         title: "Home Info",
-        headerRight: <Icon style={{ paddingRight: 10 }} name="ios-send-outline" />
+        headerRight: <Icon style={{ paddingRight: 10 }} name="md-send" />
     }
     render() {
         return (
