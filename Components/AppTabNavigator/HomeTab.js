@@ -2,6 +2,7 @@ import React, {Component} from "react";
 import {StyleSheet, Text, View} from "react-native";
 
 import {Icon} from "native-base";
+import CardComponent from "../CardComponent";
 
 class HomeTab extends Component {
     static navigationOptions = {
@@ -13,7 +14,7 @@ class HomeTab extends Component {
     render(){
         return(
             <View style={styles.container}>
-                <Text>HomeTab</Text>
+                <CardComponent/>
             </View>
         )
     }
