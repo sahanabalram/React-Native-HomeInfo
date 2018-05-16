@@ -14,12 +14,11 @@ import { TabNavigator } from 'react-navigation'
 import { Icon } from 'native-base'
 
 class MainScreen extends Component {
-
     static navigationOptions = {
-
-        header: null
+        headerLeft: <Icon name="ios-home" style={{ paddingLeft: 10 }} />,
+        title: "Home Info",
+        headerRight: <Icon style={{ paddingRight: 10 }} name="ios-send-outline" />
     }
-
     render() {
         return (
             <AppTabNavigator />
